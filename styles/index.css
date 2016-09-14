@@ -1,0 +1,107 @@
+/*index.css*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #CCC;
+}
+
+.container{
+	width: 1000px;
+	height: 600px;
+
+	margin: 20px auto 0px;
+
+	border: 1px solid #00a38b;
+}
+
+.left{
+	float: left;
+	width: 800px;
+}
+
+#myCanvas{
+	background-color: #BB792E;
+
+	display: block;
+
+	margin: 0 auto;
+}
+
+.right{
+	float: left;
+	width: 200px;
+	height: 600px;
+}
+
+.word{
+	display: none;
+
+	width: 200px;
+	height: 100px;
+
+	line-height: 100px;
+	text-align: center;
+
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.Vic{
+	margin-top: 30px;
+}
+
+.first{
+	margin-top: 50px;
+}
+
+.game, .come{
+	width: 200px;
+	height: 100px;
+
+	line-height: 100px;
+	text-align: center;
+
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.game{
+	display: none;
+}
+
+.come_on{
+	margin-top: 60px;
+}
+
+.startGame, .restartGame{
+	width: 200px;
+
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+
+	font-size: 30px;
+	font-weight: bold; 
+
+	background-color: #CC0;
+}
+
+.startGame span{
+	background-color: rgba(0, 163, 139, .2);
+	padding: 8px;
+	border-radius: 9px;
+
+	color: red;
+}
+
+.restartGame span{
+	background-color: rgba(0, 163, 139, .2);
+	border-radius: 9px;
+	padding: 8px;
+
+	color: blue;
+}
+
